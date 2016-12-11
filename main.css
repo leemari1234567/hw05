@@ -1,0 +1,272 @@
+    /*
+body {
+    background-image: url(bg01.jpg);
+    text-align: center;
+}
+*/
+    
+    .plan {
+        background-image: url(bg01.jpg);
+        background-size: cover;
+        text-align: center;
+    }
+    
+    .col {
+        width: 25%;
+        height: 400px;
+        background: white;
+        display: inline-block;
+        margin: 50px 12px;
+    }
+    
+    .price-box {
+        width: 100%;
+        height: 200px;
+        background: #003f6d;
+        color: white;
+    }
+    
+    .plan-text {
+        text-align: center;
+        padding: 20PX 0PX;
+        font-family: verdana;
+        font-size: 23PX;
+    }
+    
+    .price-text * {
+        display: inline-block;
+        font-family: verdana;
+    }
+    
+    .price-text {
+        text-align: center;
+    }
+    
+    .amount {
+        font-size: 50px;
+        padding: 5px 15px;
+    }
+    
+    .dollar {
+        vertical-align: top;
+        padding-top: 8px;
+    }
+    
+    .btn-box {
+        text-align: center;
+        font-family: verdana;
+        border: 2px solid white;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 6px 0px;
+        border-radius: 6px;
+        margin-top: 15px;
+    }
+    
+    .fa-all {
+        width: 230px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    
+    .fa-1 * {
+        display: inline-block;
+    }
+    
+    .fa-1 {
+        text-align: left;
+        width: 60%;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #cccbcb;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .fa-text {
+        font-size: 13px;
+        color: darkgrey;
+    }
+    
+    [class*="limit"] {
+        color: black
+    }
+    
+    i {
+        color: darkgrey;
+        margin-right: 5px;
+    }
+    
+    .fa-2 * {
+        display: inline-block;
+    }
+    
+    .fa-2 {
+        text-align: left;
+        width: 60%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #cccbcb;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #color-bar {
+        background: white;
+        height: 550px;
+        padding: 2%;
+        text-align: center;
+        color: white;
+    }
+    
+    #color-bar * {
+        box-sizing: border-box;
+    }
+    
+    .header {
+        width: 100%;
+        height: 100px;
+        background: #5eb3f2;
+        line-height: 100px;
+        float: left;
+    }
+    
+    .nav-yellow {
+        width: 100%;
+        height: 50px;
+        background: #f7dd4c;
+        line-height: 50px;
+        float: left;
+    }
+    
+    .sidebar {
+        width: 25%;
+        height: 350px;
+        background: #265fcb;
+        line-height: 350px;
+        float: left;
+    }
+    
+    .main {
+        width: 75%;
+        height: 350px;
+        background: #4fd4b0;
+        line-height: 350px;
+        float: left;
+    }
+    
+    .footer {
+        width: 100%;
+        height: 50px;
+        background: #ff7fab;
+        line-height: 50px;
+        float: left;
+    }
+    /*下拉式選單*/
+    
+    ul {
+        text-align: center;
+        width: 800px;
+        height: 230px;
+    }
+    
+    .nav>li {
+        display: inline-block;
+        position: relative;
+    }
+    
+    .submenu {
+        width: 200px;
+        padding: 0px;
+        position: absolute;
+        left: -1px;
+        top: 100%;
+        display: none;
+    }
+    
+    .nav>li:hover .submenu {
+        display: block;
+        height: 180px;
+    }
+    
+    .nav>li {
+        border: 1px solid #ddd;
+        border-right: 0;
+        padding: .5em 1em;
+        margin-left: -5px;
+        box-sizing: border-box;
+        width: 25%;
+    }
+    
+    .nav>li:last-child {
+        border-right: 1px solid #ddd;
+    }
+    
+    .submenu {
+        background: #d5faff;
+        padding: 0px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+    }
+    
+    .submenu li {
+        padding: .5em 15px;
+        color: black;
+        cursor: pointer;
+        list-style-type: none;
+    }
+    
+    .submenu li:hover {
+        color: gray;
+        background: white;
+    }
+
+    /*固定的圓*/
+    
+    .circle {
+        width: 80px;
+        height: 80px;
+        color: floralwhite;
+        font-size: 40px;
+        text-align: center;
+        line-height: 85px;
+        background: #ff8000;
+        border-radius: 50%;
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+    }
+    
+    .bar-group {
+        background: #eee;
+        height: 100px;
+        padding: 10px;
+    }
+    
+    div.bar {
+        width: 30px;
+        height: 30px;
+        background-color: gold;
+        margin-bottom: 5px;
+        transition: 1s;
+    }
+    
+    div.bar.item1:hover {
+        background-color: red;
+        width: 100px;
+        transition: 1s;
+    }
+    
+    div.bar.item2:hover {
+        background-color: red;
+        width: 200px;
+        transition: 1s;
+    }
+    
+    div.bar.item3:hover {
+        background-color: red;
+        width: 300px;
+        transition: 1s;
+    }
